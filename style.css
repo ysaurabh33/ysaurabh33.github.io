@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-desc h6{
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.hero-desc h1{
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.hero-desc p{
+    width: 65%;
+    font-weight: 300;
+    padding: 15px 0;
+}
+
+.details, .social-bar {
+    padding: 15px 0;
+}
+
+.details ul li{
+    list-style: none;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.details ul li:hover{
+    font-weight: 800;
+}
+
+.details ul li i{
+    font-size: 1.2rem;
+    color: #aaa;
+    padding-right: 8px;
+    font-weight: 800;
+}
+
+.social-bar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-bar ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding-right: 8px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.social-bar ul li a:hover{
+    color: #000;
+}
